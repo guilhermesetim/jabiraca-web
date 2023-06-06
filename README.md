@@ -43,22 +43,22 @@ Os usuários da categoria **funcionário** podem  realizar o cadastro de cliente
 Os usuários da categoria **gerente** permite a geração de relatórios simples, proporcionando uma visão geral das informações relevantes.
 
 ### Principais entregas do projeto
-- [] Aprovação do plano de projeto
-- [] Projeto de testes
-- [] Integração dos módulos
-- [] Validação do produto
+- [ ] Aprovação do plano de projeto
+- [ ] Projeto de testes
+- [ ] Integração dos módulos
+- [ ] Validação do produto
 
 ### Objetivos do projeto
-- [] Sistema sempre disponível e acessavel nos navegadores Mozilla Firefox e Chrome;
-- [] Sistema possui credenciamento por categoria e validado;
-- [] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
-- [] Sistema integra com os dados do sistema anterior;
-- [] Sistema aprovado no plano de de testes proposto;
+- [ ] Sistema sempre disponível e acessavel nos navegadores Mozilla Firefox e Chrome;
+- [ ] Sistema possui credenciamento por categoria e validado;
+- [ ] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
+- [ ] Sistema integra com os dados do sistema anterior;
+- [ ] Sistema aprovado no plano de de testes proposto;
 
 ### Critérios de aceitação do produto
-- [] Sistema possui credenciamento por categoria e validado;
-- [] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
-- [] Sistema permite uma navegação amigável;
+- [ ] Sistema possui credenciamento por categoria e validado;
+- [ ] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
+- [ ] Sistema permite uma navegação amigável;
 
 
 * **Funcionário:** [teste funcionario](https://quant-ux.com/#/test.html?h=a2aa10arj2gWslpVfK49EWSL2Zzhy6PuAx8zy8rbZjJJFs4XXFXgPQOVAcX2)
