@@ -43,22 +43,22 @@ Os usuários da categoria **funcionário** podem  realizar o cadastro de cliente
 Os usuários da categoria **gerente** permite a geração de relatórios simples, proporcionando uma visão geral das informações relevantes.
 
 ### Principais entregas do projeto
--[] Aprovação do plano de projeto
--[] Projeto de testes
--[] Integração dos módulos
--[] Validação do produto
+- [] Aprovação do plano de projeto
+- [] Projeto de testes
+- [] Integração dos módulos
+- [] Validação do produto
 
 ### Objetivos do projeto
--[] Sistema sempre disponível e acessavel nos navegadores Mozilla Firefox e Chrome;
--[] Sistema possui credenciamento por categoria e validado;
--[] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
--[] Sistema integra com os dados do sistema anterior;
--[] Sistema aprovado no plano de de testes proposto;
+- [] Sistema sempre disponível e acessavel nos navegadores Mozilla Firefox e Chrome;
+- [] Sistema possui credenciamento por categoria e validado;
+- [] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
+- [] Sistema integra com os dados do sistema anterior;
+- [] Sistema aprovado no plano de de testes proposto;
 
 ### Critérios de aceitação do produto
--[] Sistema possui credenciamento por categoria e validado;
--[] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
--[] Sistema permite uma navegação amigável;
+- [] Sistema possui credenciamento por categoria e validado;
+- [] Sistema possui os módulos de consulta, cadastramento e gerenciamento;
+- [] Sistema permite uma navegação amigável;
 
 
 * **Funcionário:** [teste funcionario](https://quant-ux.com/#/test.html?h=a2aa10arj2gWslpVfK49EWSL2Zzhy6PuAx8zy8rbZjJJFs4XXFXgPQOVAcX2)
@@ -92,7 +92,7 @@ Além disso, o sistema visa melhorar a experiência do usuário, oferecendo uma 
 
 Outro resultado esperado é o aumento da produtividade da equipe. Com a automação de tarefas administrativas e operacionais, os funcionários poderão se concentrar em atividades mais estratégicas e produtivas. Isso contribuirá para um aumento geral na produtividade da locadora, maximizando o aproveitamento dos recursos humanos disponíveis.
 
-Por fim, espera-se que o projeto traga uma vantagem competitiva para a locadora de veículos. A automação dos processos, a melhoria na experiência do usuário e a eficiência operacional contribuirão para uma oferta de serviços diferenciada.
+Espera-se que o projeto traga uma vantagem competitiva para a locadora de veículos.
 
 ## Recursos para monitoração e acompanhamento do projeto
 * **Quant UX:** para monitorar a experiência do usuário;
