@@ -79,13 +79,12 @@ Nº | Risco | Chance | Impacto | Prioridade | Análise do impacto | Ações miti
 ## Cronograma
 Nº | Tarefa | Início | Término | Horas | Dependências | Responsável | Artefatos gerados
 :-----: | :------: | :-----: | :------: | :-----: | :------: | :-----: | :-----:
-1 | Fase de concepção
+1 | Fase de concepção :||
 1.1 | Entrevista com o cliente | 03/05/23 | 03/05/23 | 3 | - | Andre | -
 1.2 | Termo de Abertura | 03/05/23 | 03/05/23 | 5 | - | Andre | -
 1.3 | Documento de Visão Geral | 04/05/23 | 08/05/23 | 16 | Entrevista com o cliente | Guilherme | Documento de Visão Geral
 1.4 | Elaboração de plano de projeto | 08/05/23 | 08/05/23 | 6 | Documento de Visão Geral | André | Documento de Plano de Projeto
 1.5 | Aprovação do plano de projeto | 10/05/23 | 10/05/23 | 3 | - | André | Versão 1.0
-
 2 | Fase de elaboração
 2.1 | Documento de requisitos | 11/05/23 | 15/05/23 | 24 | Aprovação do plano de projeto | Guilherme | Capítulo no documento de especificações
 2.2 | Documento de Casos de Uso | 16/05/23 | 22/05/23 | 40 | Documento de Requisitos | Guilherme | Capítulo no documento de especificações
@@ -95,8 +94,7 @@ Nº | Tarefa | Início | Término | Horas | Dependências | Responsável | Artef
 2.6 | Diagrama de classes | 01/06/23 | 05/06/23 | 24 | Diagramas de Sequencias | Guilherme | Capítulo no documento de especificações
 2.7 | Plano de testes | 01/06/23 | 02/06/23 | 16 | Diagramas de Sequencia | André | Plano de teste no Quant UX
 2.8 | Projeto de testes | 06/06/23 | 07/06/23 | 10 | Plano de testes | André | Link do teste no Quant UX 
-
-3 | Fase de construção
+3 | Fase de construção 
 3.1 | Desenvolvimento dos casos de uso mais complexos | 12/06/23 | 23/06/23 | 80 | Documentos de Casos de Uso; Diagramas de Sequencias; Diagrama de classes | Guilherme | Repositório no GitHub
 3.2 | Testes | 23/06/23 | 23/06/23 | 2 | Desenvolvimento dos casos de uso mais complexos | Guilherme | - 
 3.3 | Desenvolvimento dos casos de uso de médio e baixa complexidade | 26/06/23 | 30/06/23 | 40 | Documentos de Casos de Uso; Diagramas de Sequencias; Diagrama de classes | Guilherme; André | Repositório no GitHub
