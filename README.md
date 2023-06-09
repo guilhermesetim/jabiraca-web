@@ -79,7 +79,7 @@ Nº | Risco | Chance | Impacto | Prioridade | Análise do impacto | Ações miti
 ## Cronograma
 Nº | Tarefa | Início | Término | Horas | Dependências | Responsável | Artefatos gerados
 :-----: | :------: | :-----: | :------: | :-----: | :------: | :-----: | :-----:
-1 | Fase de concepção :||
+1 | Fase de concepção 
 1.1 | Entrevista com o cliente | 03/05/23 | 03/05/23 | 3 | - | Andre | -
 1.2 | Termo de Abertura | 03/05/23 | 03/05/23 | 5 | - | Andre | -
 1.3 | Documento de Visão Geral | 04/05/23 | 08/05/23 | 16 | Entrevista com o cliente | Guilherme | Documento de Visão Geral
