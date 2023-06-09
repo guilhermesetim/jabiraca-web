@@ -15,8 +15,8 @@
 
 Papel | Nome
 :-----: | :------:
-Desenvolvedor de *Software* | Andre Luis Grein
-Engenheiro de *Software* | Guilherme Setim
+Desenvolvedor de *Front-End* | Andre Luis Grein
+Desenvolvedor de *Back-End* | Guilherme Setim
 
 
 ## Data criação do documento
@@ -43,7 +43,7 @@ Os usuários da categoria **funcionário** podem  realizar o cadastro de cliente
 Os usuários da categoria **gerente** permite a geração de relatórios simples, proporcionando uma visão geral das informações relevantes.
 
 ### Principais entregas do projeto
-- [ ] Aprovação do plano de projeto
+- [x] Aprovação do plano de projeto
 - [ ] Projeto de testes
 - [ ] Integração dos módulos
 - [ ] Validação do produto
@@ -61,15 +61,64 @@ Os usuários da categoria **gerente** permite a geração de relatórios simples
 - [ ] Sistema permite uma navegação amigável;
 
 
-* **Funcionário:** [teste funcionario](https://quant-ux.com/#/test.html?h=a2aa10arj2gWslpVfK49EWSL2Zzhy6PuAx8zy8rbZjJJFs4XXFXgPQOVAcX2)
-* **Gerente:** [teste gerente](https://quant-ux.com/#/test.html?h=a2aa10aWiyRKwAGU1wQSqIYSY73Oui0TL6pycLrRo4huowl8L7R7UYWpczWK)
+* **Funcionário:** [Teste login funcionário](https://quant-ux.com/#/test.html?h=a2aa10arj2gWslpVfK49EWSL2Zzhy6PuAx8zy8rbZjJJFs4XXFXgPQOVAcX2)
+* **Gerente:** [Teste login gerente](https://quant-ux.com/#/test.html?h=a2aa10aWiyRKwAGU1wQSqIYSY73Oui0TL6pycLrRo4huowl8L7R7UYWpczWK)
 
 
 
 # 3. Matriz de Riscos
 
-# 4. Organização 
+Nº | Risco | Chance | Impacto | Prioridade | Análise do impacto | Ações mitigatórias / ações de contigência
+:-----: | :------: | :-----: | :------: | :-----: | :------: | :-----:
+1 | Falta de efetivo | Média | Alto | Alto| Equipe pequena, caso alguém fique indisponível para o projeto, ocorrerá atraso e sobrecarga aos demais. | Contratação de novos desenvolvedores para cumprir com o prazo
+2 | Ampliação do escopo | Baixa | Médio | Baixo | Caso o cliente deseje ampliar o escopo, não será possível cumprir com o prazo. | Necessário negociar a ampliação do prazo de entrega do produto.
+3 | Integração com os dados anteriores | Baixa | Médio | Média | Na integração com os dados anteriores, a equipe de desenvolvimento se depara com uma tecnologia que não conhece, assim dificultando a integração. | Contratação de um profissional experiente nessa tecnologia para solucionar apenas essa etapa.
 
+
+# 4. Organização 
+## Cronograma
+Nº | Tarefa | Início | Término | Horas | Dependências | Responsável | Artefatos gerados
+:-----: | :------: | :-----: | :------: | :-----: | :------: | :-----: | :-----:
+1 | Fase de concepção
+1.1 | Entrevista com o cliente | 03/05/23 | 03/05/23 | 3 | - | Andre | -
+1.2 | Termo de Abertura | 03/05/23 | 03/05/23 | 5 | - | Andre | -
+1.3 | Documento de Visão Geral | 04/05/23 | 08/05/23 | 16 | Entrevista com o cliente | Guilherme | Documento de Visão Geral
+1.4 | Elaboração de plano de projeto | 08/05/23 | 08/05/23 | 6 | Documento de Visão Geral | André | Documento de Plano de Projeto
+1.5 | Aprovação do plano de projeto | 10/05/23 | 10/05/23 | 3 | - | André | Versão 1.0
+
+2 | Fase de elaboração
+2.1 | Documento de requisitos | 11/05/23 | 15/05/23 | 24 | Aprovação do plano de projeto | Guilherme | Capítulo no documento de especificações
+2.2 | Documento de Casos de Uso | 16/05/23 | 22/05/23 | 40 | Documento de Requisitos | Guilherme | Capítulo no documento de especificações
+2.3 | Criação de protótipos | 22/05/23 | 23/05/23 | 16 | Documentos de Casos de Uso | André | Seção no documento de especificações | Interfaces no Quant UX
+2.4 | Análise e validação de protótipos pelos usuários | 24/05/23 | 24/05/23 | 8 | Prototipos | André | -
+2.5 | Diagramas de Sequencia | 25/05/23 | 31/05/23 | 48 | Documentos de Casos de Uso | André | Capítulo no documento de especificações
+2.6 | Diagrama de classes | 01/06/23 | 05/06/23 | 24 | Diagramas de Sequencias | Guilherme | Capítulo no documento de especificações
+2.7 | Plano de testes | 01/06/23 | 02/06/23 | 16 | Diagramas de Sequencia | André | Plano de teste no Quant UX
+2.8 | Projeto de testes | 06/06/23 | 07/06/23 | 10 | Plano de testes | André | Link do teste no Quant UX 
+
+3 | Fase de construção
+3.1 | Desenvolvimento dos casos de uso mais complexos | 12/06/23 | 23/06/23 | 80 | Documentos de Casos de Uso; Diagramas de Sequencias; Diagrama de classes | Guilherme | Repositório no GitHub
+3.2 | Testes | 23/06/23 | 23/06/23 | 2 | Desenvolvimento dos casos de uso mais complexos | Guilherme | - 
+3.3 | Desenvolvimento dos casos de uso de médio e baixa complexidade | 26/06/23 | 30/06/23 | 40 | Documentos de Casos de Uso; Diagramas de Sequencias; Diagrama de classes | Guilherme; André | Repositório no GitHub
+3.4 | Testes | 30/06/23 | 30/06/23 | 2 | Desenvolvimento dos casos de uso de médio e baixa complexidade | Guilherme; André | - 
+3.5 | Desenvolvimento da versão final | 03/07/23 | 07/07/23 | 40 | Documentos de Casos de Uso; Diagramas de Sequencias; Diagrama de classes | André | Repositório no GitHub
+3.6 | Testes | 10/07/23 | 10/07/23 | 8 | Desenvolvimento dos casos de uso de médio e baixa complexidade | André | - 
+3.7 | Integração dos módulos | 11/07/23 | 14/07/23 | 32 | Desenvolvimento de todos os Casos de Uso e seus respectivos testes | Guilherme; André | Software propriamente dito
+4 | Fase de transição
+4.1 | Entrega do programa ao cliente | 17/07/23 | 17/07/23 | 8 | Integração dos módulos | André | -
+4.2 | Implantação do sistema | 18/07/23 | 20/07/23 | 24 | Entrega do programa ao cliente | Guilherme | Software operando ao cliente
+4.3 | Validação do produto | 21/07/23 | 21/07/23 | 6 | Implantação do sistema | André | -
+
+
+## Organização da Equipe
+Papel | Nome
+:-----: | :------:
+Desenvolvedor de *Front-End* | Andre Luis Grein
+Desenvolvedor de *Back-End* | Guilherme Setim
+
+
+## Trello
+* [Link do projeto no Trello]()
 
 # 5. Conclusão
 ## Recursos que serão utilizados (, ferramentas de apoio, linguagem de programação)
