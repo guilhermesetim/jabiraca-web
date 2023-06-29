@@ -1,7 +1,7 @@
 # 1. Identificação
 ## Identidade visual do projeto
 ![index](/assets/01-a-01.png)
-![funcionario](/assets/01-a-02.png)
+![atendente](/assets/01-a-02.png)
 ![gerente](/assets/01-a-03.png)
 
 ## Redes sociais do projeto
@@ -44,7 +44,7 @@ Os usuários da categoria **gerente** permite a geração de relatórios simples
 
 ### Principais entregas do projeto
 - [x] Aprovação do plano de projeto
-- [ ] Projeto de testes
+- [x] Projeto de testes
 - [ ] Integração dos módulos
 - [ ] Validação do produto
 
@@ -61,7 +61,7 @@ Os usuários da categoria **gerente** permite a geração de relatórios simples
 - [ ] Sistema permite uma navegação amigável;
 
 
-* **Funcionário:** [Teste login funcionário](https://quant-ux.com/#/test.html?h=a2aa10arj2gWslpVfK49EWSL2Zzhy6PuAx8zy8rbZjJJFs4XXFXgPQOVAcX2)
+* **Funcionário:** [Teste login atendente](https://quant-ux.com/#/test.html?h=a2aa10arj2gWslpVfK49EWSL2Zzhy6PuAx8zy8rbZjJJFs4XXFXgPQOVAcX2)
 * **Gerente:** [Teste login gerente](https://quant-ux.com/#/test.html?h=a2aa10aWiyRKwAGU1wQSqIYSY73Oui0TL6pycLrRo4huowl8L7R7UYWpczWK)
 
 
@@ -116,10 +116,10 @@ Desenvolvedor de *Back-End* | Guilherme Setim
 
 
 ## Trello
-* [Link do projeto no Trello]()
+* [Link do projeto no Trello](https://trello.com/b/Kqu80FbK/jabiraca-web)
 
 # 5. Conclusão
-## Recursos que serão utilizados (, ferramentas de apoio, linguagem de programação)
+## Recursos que serão utilizados
 ### Tecnologias
 * Banco de dados MySql 5;
 * API's de terceiros;

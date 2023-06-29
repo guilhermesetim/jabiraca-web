@@ -1,0 +1,75 @@
+@startuml
+
+class Veiculo {
+  - placa: String
+  - marca: String
+  - modelo: String
+  - chassi: String
+  - numeroMotor: Float
+  - tamanho: String
+  - numeroPassageiros: Int
+  - numeroPortas: Int
+  - acessorios: String
+  - disponivel: boolean
+  + reservar(): void
+  + devolver(): void
+  + getPlaca(): String
+  + setPlaca(placa: String): void
+  + getMarca(): String
+  + setMarca(marca: String): void
+  + getModelo(): String
+  + setModelo(modelo: String): void
+  + getChassi(): String
+  + setChassi(chassi: String): void
+  + getNumeroMotor(): Float
+  + setNumeroMotor(numeroMotor: Float): void
+  + getTamanho(): String
+  + setTamanho(tamanho: String): void
+  + getNumeroPassageiros(): Int
+  + setNumeroPassageiros(numeroPassageiros: Int): void
+  + getNumeroPortas(): Int
+  + setNumeroPortas(numeroPortas: Int): void
+  + getAcessorios(): String
+  + setAcessorios(acessorios: String): void
+}
+
+class Cliente {
+  - nome: String
+  - cpf: String
+  - sexo: Char
+  - dataNascimento: String
+  - endereco: String
+  + fazerReserva(veiculo: Veiculo): void
+  + validarCliente(Cliente):void
+  + validarCPF(String):void
+  
+  + getCpf(): String
+  + setCpf(cpf: String): void
+  + getSexo(): Char
+  + setSexo(sexo: Char): void
+  + getDataNascimento(): String
+  + setDataNascimento(dataNascimento: String): void
+  + getEndereco(): String
+  + setEndereco(endereco: String): void
+}
+
+class Locadora {
+  - veiculos: List<Veiculo>
+  - clientes: List<Cliente>
+  + adicionarVeiculo(veiculo: Veiculo): void
+  + removerVeiculo(veiculo: Veiculo): void
+  + consultarVeiculo(veiculo: Veiculo):void
+  + adicionarCliente(cliente: Cliente): void
+  + removerCliente(cliente: Cliente): void
+  + consultarCliente(cliente: Cliente):void
+}
+
+
+
+Veiculo "1" --> "*" Cliente: possui
+Cliente "1" --> "*" Veiculo: faz reserva
+Locadora "1" --> "*" Veiculo: gerencia
+Locadora "1" --> "*" Cliente: gerencia
+
+
+@enduml

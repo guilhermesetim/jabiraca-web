@@ -1,0 +1,74 @@
+@startuml
+
+!define MASTER_MARK_STYLE OrangeRed
+!define ENTITY_MARK_STYLE DeepSkyBlue
+!define RELATION_MARK_STYLE ForestGreen
+
+!define ENTITY_TYPE_TXT_BOLD true
+!define ENTITY_TYPE_TXT_COLOR DarkSlateBlue
+
+!define RELATION_LABEL_BOLD true
+!define RELATION_LABEL_COLOR DarkSlateGray
+
+entity Cliente {
+  * id_cliente (PK)
+  --
+  cpf
+  nome
+  sexo
+  dataNascimento
+  endereco
+}
+
+entity Veiculo {
+  * id_veiculo (PK)
+  --
+  placa 
+  marca
+  modelo
+  chassi
+  numeroMotor
+  tamanho
+  numeroPassageiros
+  numeroPortas
+  acessorios
+  id_tipo_veiculo (FK)
+}
+
+entity Locacao {
+  * id_locacao (PK)
+  --
+  dataLocacao
+  dataDevolucao
+  valorTotal
+  id_cliente (FK)
+  id_veiculo (FK)
+  id_atendente (FK)
+}
+
+entity Funcionario {
+  * id_funcionario (PK)
+  --
+  cpf
+  nome
+  sexo
+  dataNascimento
+  endereco
+  cargo
+}
+
+
+entity TipoVeiculo {
+  * id_tipo_veiculo (PK)
+  --
+  classificacao
+}
+
+TipoVeiculo --o{ Veiculo: id_tipo_veiculo
+Cliente --o{Locacao: id_cliente
+Veiculo --o{Locacao: id_veiculo
+Funcionario --o{Locacao: id_funcionario
+
+
+
+@enduml

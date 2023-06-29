@@ -1,0 +1,36 @@
+class Funcionario {
+  - nome: String
+  - cpf: String
+  - sexo: char
+  - dataNascimento: String
+  - endereco: String
+  - matricula: String
+  - senha: String
+  
+  + getNome(): String
+  + setNome(nome: String): void
+  + getCpf(): String
+  + setCpf(cpf: String): void
+  + getSexo(): char
+  + setSexo(sexo: char): void
+  + getDataNascimento(): String
+  + setDataNascimento(dataNascimento: String): void
+  + getEndereco(): String
+  + setEndereco(endereco: String): void
+  + getSenha(): String
+  + setSenha(senha: String): void
+  + getMatricula(): String
+  + setMatricula(matricula: String): void
+}
+
+class Gerente extends Funcionario {
+  + gerarRelatorioLocacaoPeriodo(): void
+  + gerarRelatorioReservasAtivas(): void
+  + gerarRelatorioVeiculosDisponiveis(): void
+  + gerarRelatorioClientesFrequentes(): void
+}
+
+class Atendente extends Funcionario {
+  + acessarCliente(): void
+  + acessarVeiculo(): void
+}
